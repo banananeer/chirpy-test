@@ -87,21 +87,12 @@ For this project, we'll leverage AWS since there are some nice built in features
 
 > The site will be hosted on S3 and use the API Gateway as an API. The API Gateway will send the payload directly to SQS, and a Lambda will be triggered to add the information to the business CRM.
 
-![Desktop View](/assets/images/static_site_with_lead_capture_-_no_eventbus.png)
-_Static Site with Lead Capture and no EventBus_
-
 
 #### Option 2
 The project will be broken up into two parts.
 > The static site hosted on S3 and use the API Gateway as an API. The API Gateway will send the payload to EventBridge. 
 
-![Desktop View](/assets/images/static_site_with_lead_capture_-_with_eventbus.png)
-_Static Site with Lead Capture and EventBus_
-
 > EventBridge will forward the event to an SQS target, and a Lambda will be triggered to add the information to the business CRM.
-
-![Desktop View](/assets/images/lead_importer.png)
-_Static Site with Lead Capture and EventBus_
 
 The two architectures here are almost identical, so how do you determine which one to use. Start by looking at the requirements and how each option stacks up against them.
 
