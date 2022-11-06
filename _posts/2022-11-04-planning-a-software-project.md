@@ -85,7 +85,7 @@ from diagrams.aws.network import ELB
 with Diagram("Web Service", show=False):
     ELB("lb") >> EC2("web") >> RDS("userdb")
 ```
-![Desktop View](/assets/web_service.png){: width="466" height="300" }
+![Desktop View](/assets/images/web_service.png){: width="466" height="300" }
 _Example image created with Mingrammer_
 
 ## Deploying Changes
