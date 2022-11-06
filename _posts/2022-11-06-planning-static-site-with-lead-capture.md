@@ -6,7 +6,7 @@ tags: [terraform, system design, aws, s3, dynamodb, lambda, apigateway]     # TA
 mermaid: true
 ---
 
-Let's say a business or individual comes to you and wants you to build a static site that needs to have a way to capture visitors contact information. Following the [Planning a Software Project](/posts/planning-a-software-project/) this shouldn't be too hard of a project to flesh out the details and get started on our code.
+Let's say a business or individual comes to you and wants you to build a static site that needs to have a way to capture visitors contact information. Following the [Planning a Software Project] this shouldn't be too hard of a project to flesh out the details and get started on our code.
 
 # Tasks with Stakeholders
 
