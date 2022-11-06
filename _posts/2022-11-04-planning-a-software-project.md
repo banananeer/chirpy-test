@@ -85,6 +85,8 @@ from diagrams.aws.network import ELB
 with Diagram("Web Service", show=False):
     ELB("lb") >> EC2("web") >> RDS("userdb")
 ```
+![Desktop View](/assets/images/web_service.png){: width="466" height="300" }
+_Example image created with Mingrammer_
 
 ## Deploying Changes
 Whether it's an individual developer or an entire team working on a project, having a pipeline helps reduce human error and gives the developement team more time to focus on writing higher quality code and maintaining their sanity. If you're on a team or an organization, there might already be a pipeline in place. In which case you should use that. If it's an individual developer, just use whatever is easiest, so in my case I'll use Github Actions until I find a use case that can't be solved and I'm forced to search for another solution.
